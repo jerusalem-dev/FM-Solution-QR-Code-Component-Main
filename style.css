@@ -1,0 +1,74 @@
+:root {
+  --bgc-primary: hsl(212, 45%, 89%);
+  --bgc-card: hsl(0, 0%, 100%);
+  --clr-heading: hsl(218, 44%, 22%);
+  --clr-paragraph: hsl(220, 15%, 55%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+p {
+  margin-block-end: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: center;
+  background-color: var(--bgc-primary);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1 {
+  line-height: 1.1;
+  text-wrap: balance;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--clr-heading);
+}
+
+p {
+  color: var(--clr-paragraph);
+}
+
+.card {
+  max-width: 25em;
+  border-radius: 16px;
+  margin: 3em auto;
+  padding: 1em;
+  background-color: var(--bgc-card);
+}
+
+.card__img {
+  aspect-ratio: 1/1;
+  border-radius: 16px;
+}
+
+.card__text {
+  padding: 1em 3em 2em;
+}
+
+.attribution {
+  font-size: 0.7rem;
+  margin-bottom: 1em;
+}
+.attribution a {
+  color: var(--clr-heading);
+}
+
+.attribution a:hover,
+.attribution a:focus {
+  color: hsl(228, 45%, 44%);
+}
