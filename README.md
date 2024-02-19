@@ -10,8 +10,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/solution-qr-code-component-main-xMPKL5J00_
+- Live Site URL: https://jerusalem-dev.github.io/FM-Solution-QR-Code-Component-Main/
 
 ### Built with
 
